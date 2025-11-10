@@ -9,12 +9,12 @@ public class Commercant extends Humain {
 	public int seFaireExtorquer() {
 		int argentPerdu = super.getArgent();
 		super.perdreArgent(argentPerdu);
-		super.Parler("J'ai tout perdu! Le monde est trop injuste...");
+		super.parler("J'ai tout perdu! Le monde est trop injuste...");
 		return argentPerdu;
 	}
 	
 	public void recevoir(int argent) {
 		super.gagnerArgent(argent);
-		super.Parler(argent + " sous ! Je te remercie généreux donateur !");
+		super.parler(argent + " sous ! Je te remercie généreux donateur !");
 	}
 }
