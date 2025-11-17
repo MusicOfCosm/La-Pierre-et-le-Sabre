@@ -56,7 +56,7 @@ public class Humain {
 	}
 	
 	
-	private void memoriser(Humain autreHumain) {
+	protected void memoriser(Humain autreHumain) {
 		if (this.nbConnaissance < this.memoire.length) {
 			this.memoire[this.nbConnaissance++] = autreHumain;
 		} else {
