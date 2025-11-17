@@ -1,2 +1,2 @@
 # La-Pierre-et-le-Sabre
-Deuxième projet TP fait en ILU1
+Deuxième groupe de TPs fait en ILU1
